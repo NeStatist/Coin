@@ -11,7 +11,7 @@ class Crypto {
     var success: Boolean? = null
     @SerializedName("error")
     var error: String? = null
-    var market: Market?= null
+    var coinName: String? = null
 
      class Market {
         @SerializedName("market")
@@ -20,7 +20,6 @@ class Crypto {
         var price: String? = null
         @SerializedName("volume")
         var volume: Float? = null
-        var coinName: String? = null
     }
 
    class Ticker {
